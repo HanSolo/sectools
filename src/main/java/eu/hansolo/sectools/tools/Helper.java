@@ -415,7 +415,7 @@ public class Helper {
 
 
     // ******************** REST calls ****************************************
-    public static HttpClient createHttpClient() {
+    public static final HttpClient createHttpClient() {
         return HttpClient.newBuilder()
                          .connectTimeout(Duration.ofSeconds(20))
                          .followRedirects(Redirect.NORMAL)
