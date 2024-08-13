@@ -1,2 +1,2 @@
-# sectools
-A java library mainly focused on security related things like CVE, CVSS, EPSS etc.
+## SecTools
+A java library mainly related to security things like CVE, CVSS, EPSS, KEY etc.
