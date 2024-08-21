@@ -59,6 +59,7 @@ jar {
                 'Bundle-Name'           : project.name,
                 'Bundle-License'        : 'https://www.apache.org/licenses/LICENSE-2.0;description=Apache License Version 2.0;link=https://spdx.org/licenses/Apache-2.0.html',
                 'Bundle-Description'    : description,
+                'Bundle-Version'        : project.version,
                 'Bundle-SymbolicName'   : 'eu.hansolo.sectools',
                 'Export-Package'        : 'eu.hansolo.sectools,eu.hansolo.sectools.metrics,eu.hansolo.sectools.severity,eu.hansolo.sectools,tools',
                 'Class-Path'            : configurations.runtimeClasspath.files.collect { it.getName() }.join(' ')
